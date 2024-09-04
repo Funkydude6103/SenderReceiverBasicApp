@@ -32,7 +32,7 @@ public class ReviewInformation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review_information);
-        ImageView fabAdd= findViewById(R.id.fabAdd);
+        FloatingActionButton fabAdd= findViewById(R.id.fabAdd);
 
 // Set an onClickListener to handle the click event
         fabAdd.setOnClickListener(new View.OnClickListener() {

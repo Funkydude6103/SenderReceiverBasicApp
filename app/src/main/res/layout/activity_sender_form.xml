@@ -10,14 +10,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="413dp"
-        android:layout_height="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_110dp"
         android:text="@string/sender_detail"
-        android:padding="10dp"
+        android:padding="@dimen/_10dp"
         android:background="@drawable/rounded_background"
         android:textColor="@color/white"
         android:fontFamily="monospace"
-        android:textSize="34sp"
+        android:textSize="@dimen/_34sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
+        android:padding="@dimen/_16dp"
         android:gravity="center_horizontal"
         android:background="@color/background"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -41,8 +41,8 @@
             android:layout_width="@dimen/edittext"
             android:layout_height="wrap_content"
             android:hint="@string/sender_detail_email"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:padding="@dimen/_16dp"
             android:inputType="textEmailAddress"
             android:background="@drawable/edittextrounded"/>
 
@@ -51,8 +51,8 @@
             android:layout_width="@dimen/edittext"
             android:layout_height="wrap_content"
             android:hint="@string/sender_detail_fullname"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:padding="@dimen/_16dp"
             android:inputType="text"
             android:background="@drawable/edittextrounded"/>
 
@@ -61,8 +61,8 @@
             android:layout_width="@dimen/edittext"
             android:layout_height="wrap_content"
             android:hint="@string/sender_detail_contact_information"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:padding="@dimen/_16dp"
             android:inputType="phone"
             android:background="@drawable/edittextrounded"/>
 
@@ -71,8 +71,8 @@
             android:layout_width="@dimen/edittext"
             android:layout_height="wrap_content"
             android:hint="@string/sender_detail_country"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:padding="@dimen/_16dp"
             android:inputType="text"
             android:background="@drawable/edittextrounded"/>
 
@@ -81,14 +81,14 @@
             android:layout_width="@dimen/edittext"
             android:layout_height="wrap_content"
             android:hint="@string/sender_detail_address"
-            android:layout_marginTop="16dp"
-            android:padding="16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:padding="@dimen/_16dp"
             android:inputType="text"
             android:background="@drawable/edittextrounded"/>
 
         <Button
             android:id="@+id/btnnext"
-            android:layout_width="269dp"
+            android:layout_width="@dimen/_269dp"
             android:layout_height="wrap_content"
             android:text="@string/next"
             android:background="@drawable/edittextrounded"
@@ -96,7 +96,7 @@
             android:backgroundTint="@color/red"
             android:textStyle="bold"
             android:fontFamily="monospace"
-            android:layout_marginTop="24dp"
-            android:textSize="20sp"/>
+            android:layout_marginTop="@dimen/_24dp"
+            android:textSize="@dimen/_20sp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
