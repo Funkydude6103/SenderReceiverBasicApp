@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SenderReceiverBasicApp</string>
+    <string name="sender_detail_email">Email</string>
+    <string name="sender_detail_fullname">Full Name</string>
+    <string name="sender_detail_contact_information">Contact Information</string>
+    <string name="sender_detail_country">Country</string>
+    <string name="sender_detail_address">Address</string>
+
+    <string name="receiver_detail_email">Email</string>
+    <string name="receiver_detail_fullname">Full Name</string>
+    <string name="receiver_detail_contact_information">Contact Information</string>
+    <string name="receiver_detail_country">Country</string>
+    <string name="receiver_detail_address">Address</string>
+    <string name="sender_detail">SENDER\nDETAILS</string>
+    <string name="next">NEXT</string>
+    <string name="reciever_deatils">RECIEVER\nDEATILS</string>
+    <string name="review_infromation">Review Infromation</string>
+
+</resources>
